@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>io.github.leoniedermeier.maven.cifriendly</groupId>
-		<artifactId>io.github.leoniedermeier.maven.cifriendly</artifactId>
+		<groupId>io.github.leoniedermeier.maven.demo.cifriendly</groupId>
+		<artifactId>io.github.leoniedermeier.maven.demo.cifriendly</artifactId>
 		<version>0</version>
 	</parent>
 	<artifactId>module2</artifactId>
