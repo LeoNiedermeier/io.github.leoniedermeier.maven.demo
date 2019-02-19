@@ -3,16 +3,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>io.github.leoniedermeier.maven.demo.cifriendly</groupId>
-		<artifactId>io.github.leoniedermeier.maven.demo.cifriendly</artifactId>
-		<version>0</version>
+		<groupId>io.github.leoniedermeier.maven.demo.maven-git-versioning-extension</groupId>
+		<artifactId>io.github.leoniedermeier.maven.demo.maven-git-versioning-extension</artifactId>
+		<version>0.0.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>module2</artifactId>
+	<artifactId>maven-git-versioning-extension.module2</artifactId>
 	<dependencies>
 		<!-- https://maven.apache.org/maven-ci-friendly.html, section Multi Module 
 			Setup / Dependencies -->
 		<dependency>
-			<groupId>io.github.leoniedermeier.maven.cifriendly</groupId>
+			<groupId>io.github.leoniedermeier.maven.demo.maven-git-versioning-extension</groupId>
 			<artifactId>module1</artifactId>
 			<version>${project.version}</version>
 		</dependency>

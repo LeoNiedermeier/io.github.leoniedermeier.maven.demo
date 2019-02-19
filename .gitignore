@@ -1,5 +1,6 @@
 /**/target/
 /**/.flattened-pom.xml
+/**/.git-versioned.pom.xml
 /**/.classpath
 /**/.settings
 /**/.project
