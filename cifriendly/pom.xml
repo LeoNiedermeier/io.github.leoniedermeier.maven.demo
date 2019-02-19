@@ -15,7 +15,7 @@
 
         -->
         <!-- produces merge conflict -->
-        <revision>development-SNAPSHOT</revision>
+        <revision>master-SNAPSHOT</revision>
     </properties>
     <modules>
         <module>cifriendly.module1</module>
