@@ -14,7 +14,6 @@
         <dependency>
             <groupId>io.github.leoniedermeier.maven.demo.cifriendly</groupId>
             <artifactId>cifriendly.module1</artifactId>
-            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>

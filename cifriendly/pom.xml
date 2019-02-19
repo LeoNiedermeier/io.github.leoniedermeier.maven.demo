@@ -15,13 +15,27 @@
 
         -->
         <!-- overrides the master or produces merge conflict -->
-        <!--  merge drivers only resolve conflicts, but do not prevent merging featuer to master -->
+        <!-- merge drivers only resolve conflicts, but do not prevent merging featuer to master -->
         <revision>master-SNAPSHOT</revision>
     </properties>
     <modules>
         <module>cifriendly.module1</module>
         <module>cifriendly.module2</module>
     </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.github.leoniedermeier.maven.demo.cifriendly</groupId>
+                <artifactId>cifriendly.module1</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.leoniedermeier.maven.demo.cifriendly</groupId>
+                <artifactId>cifriendly.module2</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <build>
         <plugins>
             <plugin>
