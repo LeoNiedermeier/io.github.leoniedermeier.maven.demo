@@ -14,7 +14,8 @@
             or by command line -Drevision=xyz
 
         -->
-        <!-- produces merge conflict -->
+        <!-- overrides the master or produces merge conflict -->
+        <!--  merge drivers only resolve conflicts, but do not prevent merging featuer to master -->
         <revision>master-SNAPSHOT</revision>
     </properties>
     <modules>
