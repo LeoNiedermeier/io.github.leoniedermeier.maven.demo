@@ -3,17 +3,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.leoniedermeier.maven.demo.cifriendly</groupId>
-        <artifactId>io.github.leoniedermeier.maven.demo.cifriendly</artifactId>
+        <artifactId>project1</artifactId>
         <version>${revision}</version>
     </parent>
-    <artifactId>cifriendly.module2</artifactId>
+    <artifactId>project1.module2</artifactId>
     <dependencies>
-        <!-- https://maven.apache.org/maven-ci-friendly.html, section Multi Module
-            Setup / Dependencies -->
-
         <dependency>
             <groupId>io.github.leoniedermeier.maven.demo.cifriendly</groupId>
-            <artifactId>cifriendly.module1</artifactId>
+            <artifactId>project1.module1</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>
