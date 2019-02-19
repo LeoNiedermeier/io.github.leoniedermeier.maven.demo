@@ -16,7 +16,7 @@
         -->
         <!-- overrides the master or produces merge conflict -->
         <!-- merge drivers only resolve conflicts, but do not prevent merging featuer to master -->
-        <revision>master-SNAPSHOT</revision>
+        <revision>local-SNAPSHOT</revision>
     </properties>
     <modules>
         <module>cifriendly.module1</module>
