@@ -13,5 +13,10 @@
             <artifactId>project2.module1</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>io.github.leoniedermeier.maven.demo.cifriendly</groupId>
+            <artifactId>project1.module2</artifactId>
+             <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>
